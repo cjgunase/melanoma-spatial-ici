@@ -1,0 +1,18 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Public source data are retrieved from GEO, never versioned.
+data/raw/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+
+# Generated analysis artifacts.
+results/**
+!results/.gitkeep
+

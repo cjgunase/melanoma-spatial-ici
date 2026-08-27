@@ -1,0 +1,34 @@
+{
+  "datasets": {
+    "GSE115978": {
+      "modality": "scRNA-seq",
+      "role": "single-cell reference",
+      "files": [
+        {"name": "GSE115978_counts.csv.gz", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115978/suppl/GSE115978_counts.csv.gz", "directory": "data/raw/GSE115978_scRNA", "expected_bytes": 51508919},
+        {"name": "GSE115978_cell.annotations.csv.gz", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115978/suppl/GSE115978_cell.annotations.csv.gz", "directory": "data/raw/GSE115978_scRNA", "expected_bytes": 101286},
+        {"name": "GSE115978_family.soft.gz", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115978/soft/GSE115978_family.soft.gz", "directory": "data/raw/GSE115978_scRNA"}
+      ]
+    },
+    "GSE300445": {
+      "modality": "Visium spatial transcriptomics",
+      "role": "spatial discovery",
+      "files": [
+        {"name": "GSE300445_RAW.tar", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300445/suppl/GSE300445_RAW.tar", "directory": "data/raw/GSE300445_Visium", "expected_bytes": 315637760},
+        {"name": "GSE300445_family.soft.gz", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300445/soft/GSE300445_family.soft.gz", "directory": "data/raw/GSE300445_Visium"}
+      ]
+    },
+    "GSE233305": {
+      "modality": "GeoMx DSP whole-transcriptome atlas",
+      "role": "independent clinical validation",
+      "files": [
+        {"name": "GSE233305_Mel_ITX1_CD45_10__norm.xlsx", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/suppl/GSE233305_Mel_ITX1_CD45_10__norm.xlsx", "directory": "data/raw/GSE233305_validation", "expected_bytes": 1821166},
+        {"name": "GSE233305_Mel_ITX1_CD68_10__norm.xlsx", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/suppl/GSE233305_Mel_ITX1_CD68_10__norm.xlsx", "directory": "data/raw/GSE233305_validation", "expected_bytes": 1048581},
+        {"name": "GSE233305_Mel_ITX1_S100B_10__norm.xlsx", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/suppl/GSE233305_Mel_ITX1_S100B_10__norm.xlsx", "directory": "data/raw/GSE233305_validation", "expected_bytes": 7199566},
+        {"name": "GSE233305_Mel_ITX2_CD45_10__norm.xlsx", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/suppl/GSE233305_Mel_ITX2_CD45_10__norm.xlsx", "directory": "data/raw/GSE233305_validation", "expected_bytes": 10139571},
+        {"name": "GSE233305_Mel_ITX2_CD68_10__norm.xlsx", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/suppl/GSE233305_Mel_ITX2_CD68_10__norm.xlsx", "directory": "data/raw/GSE233305_validation", "expected_bytes": 10430451},
+        {"name": "GSE233305_Mel_ITX2_S100B_10__norm.xlsx", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/suppl/GSE233305_Mel_ITX2_S100B_10__norm.xlsx", "directory": "data/raw/GSE233305_validation", "expected_bytes": 21952576},
+        {"name": "GSE233305_family.soft.gz", "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/soft/GSE233305_family.soft.gz", "directory": "data/raw/GSE233305_validation"}
+      ]
+    }
+  }
+}

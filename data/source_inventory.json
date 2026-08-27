@@ -1,0 +1,136 @@
+{
+  "files": [
+    {
+      "accession": "GSE115978",
+      "modality": "scRNA-seq",
+      "role": "single-cell reference",
+      "path": "data/raw/GSE115978_scRNA/GSE115978_counts.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115978/suppl/GSE115978_counts.csv.gz",
+      "exists": true,
+      "bytes": 51508919,
+      "sha256": "a0512f2b069484e63c2025c56200a280613290735abedf68b21d30f968def768",
+      "size_matches": true
+    },
+    {
+      "accession": "GSE115978",
+      "modality": "scRNA-seq",
+      "role": "single-cell reference",
+      "path": "data/raw/GSE115978_scRNA/GSE115978_cell.annotations.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115978/suppl/GSE115978_cell.annotations.csv.gz",
+      "exists": true,
+      "bytes": 101286,
+      "sha256": "b83dd0ba7eb913e98d953dcf9dbb71752aaef57795b86364ff51d61167a5d46a",
+      "size_matches": true
+    },
+    {
+      "accession": "GSE115978",
+      "modality": "scRNA-seq",
+      "role": "single-cell reference",
+      "path": "data/raw/GSE115978_scRNA/GSE115978_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115978/soft/GSE115978_family.soft.gz",
+      "exists": true,
+      "bytes": 306428,
+      "sha256": "b1af74ebae5eefe01eca24ca143366ad4947b20970d8bd01eede5bb4624a8aed",
+      "size_matches": true
+    },
+    {
+      "accession": "GSE300445",
+      "modality": "Visium spatial transcriptomics",
+      "role": "spatial discovery",
+      "path": "data/raw/GSE300445_Visium/GSE300445_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300445/suppl/GSE300445_RAW.tar",
+      "exists": true,
+      "bytes": 315637760,
+      "sha256": "1aa6d86578bc483c0c2ee39cb16e716d3a275ad20416255719fcdd99443045a5",
+      "size_matches": true
+    },
+    {
+      "accession": "GSE300445",
+      "modality": "Visium spatial transcriptomics",
+      "role": "spatial discovery",
+      "path": "data/raw/GSE300445_Visium/GSE300445_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300445/soft/GSE300445_family.soft.gz",
+      "exists": true,
+      "bytes": 3196,
+      "sha256": "7283a01d30150bc930c14084b4db4f50c202a2f7f5a93e86383e2e764d4538da",
+      "size_matches": true
+    },
+    {
+      "accession": "GSE233305",
+      "modality": "GeoMx DSP whole-transcriptome atlas",
+      "role": "independent clinical validation",
+      "path": "data/raw/GSE233305_validation/GSE233305_Mel_ITX1_CD45_10__norm.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/suppl/GSE233305_Mel_ITX1_CD45_10__norm.xlsx",
+      "exists": true,
+      "bytes": 1821166,
+      "sha256": "8abb21ebd096051d2d94627fbcdf01bd81f05aaaebfc8cfa268c6bf1c2f07e37",
+      "size_matches": true
+    },
+    {
+      "accession": "GSE233305",
+      "modality": "GeoMx DSP whole-transcriptome atlas",
+      "role": "independent clinical validation",
+      "path": "data/raw/GSE233305_validation/GSE233305_Mel_ITX1_CD68_10__norm.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/suppl/GSE233305_Mel_ITX1_CD68_10__norm.xlsx",
+      "exists": true,
+      "bytes": 1048581,
+      "sha256": "267c2b4827d4bf332971ccb1f2867e24ab67c0c9721c612ef997383177a5cf67",
+      "size_matches": true
+    },
+    {
+      "accession": "GSE233305",
+      "modality": "GeoMx DSP whole-transcriptome atlas",
+      "role": "independent clinical validation",
+      "path": "data/raw/GSE233305_validation/GSE233305_Mel_ITX1_S100B_10__norm.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/suppl/GSE233305_Mel_ITX1_S100B_10__norm.xlsx",
+      "exists": true,
+      "bytes": 7199566,
+      "sha256": "871190cc3d18a665e0229bf4b933b8024a3c68d9c0abe3cf107f218213011469",
+      "size_matches": true
+    },
+    {
+      "accession": "GSE233305",
+      "modality": "GeoMx DSP whole-transcriptome atlas",
+      "role": "independent clinical validation",
+      "path": "data/raw/GSE233305_validation/GSE233305_Mel_ITX2_CD45_10__norm.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/suppl/GSE233305_Mel_ITX2_CD45_10__norm.xlsx",
+      "exists": true,
+      "bytes": 10139571,
+      "sha256": "038f5af1ac59114a030f4fb6cbc08a6d07103623b8ce2906786aa599616dbe6e",
+      "size_matches": true
+    },
+    {
+      "accession": "GSE233305",
+      "modality": "GeoMx DSP whole-transcriptome atlas",
+      "role": "independent clinical validation",
+      "path": "data/raw/GSE233305_validation/GSE233305_Mel_ITX2_CD68_10__norm.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/suppl/GSE233305_Mel_ITX2_CD68_10__norm.xlsx",
+      "exists": true,
+      "bytes": 10430451,
+      "sha256": "b3f706c6f120d2b35c6650268371008b843bede16f98073b4216c5dc81cc7408",
+      "size_matches": true
+    },
+    {
+      "accession": "GSE233305",
+      "modality": "GeoMx DSP whole-transcriptome atlas",
+      "role": "independent clinical validation",
+      "path": "data/raw/GSE233305_validation/GSE233305_Mel_ITX2_S100B_10__norm.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/suppl/GSE233305_Mel_ITX2_S100B_10__norm.xlsx",
+      "exists": true,
+      "bytes": 21952576,
+      "sha256": "d99a65c06cf19b3ae54762e4226fda152fed2129f2187ccd4dcbccbe7550ced4",
+      "size_matches": true
+    },
+    {
+      "accession": "GSE233305",
+      "modality": "GeoMx DSP whole-transcriptome atlas",
+      "role": "independent clinical validation",
+      "path": "data/raw/GSE233305_validation/GSE233305_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE233nnn/GSE233305/soft/GSE233305_family.soft.gz",
+      "exists": true,
+      "bytes": 38215,
+      "sha256": "638d63f6957acddc7bc2b6e4576c31680f2cf963f9000f474311c12386ab21e8",
+      "size_matches": true
+    }
+  ]
+}
