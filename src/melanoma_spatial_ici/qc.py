@@ -21,9 +21,8 @@ def calculate_scrna_qc(
         log1p=False,
         inplace=True,
     )
-    base_pass = (
-        adata.obs["n_genes_by_counts"].between(min_genes, max_genes)
-        & (adata.obs["total_counts"] >= min_counts)
+    base_pass = adata.obs["n_genes_by_counts"].between(min_genes, max_genes) & (
+        adata.obs["total_counts"] >= min_counts
     )
     mitochondrial_genes_present = int(adata.var["mt"].sum())
     adata.obs["pass_qc"] = (

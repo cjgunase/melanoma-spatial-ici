@@ -35,4 +35,3 @@ def test_reader_rejects_metadata_mismatch(tmp_path: Path):
     annotations.to_csv(annotations_path, index=False)
     with pytest.raises(ValueError, match="mismatch"):
         read_gse115978(counts_path, annotations_path)
-
