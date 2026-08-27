@@ -38,12 +38,21 @@ The analysis integrates three public melanoma cohorts:
 ### Quick start
 
 ```bash
-uv sync --python 3.12
+uv sync --python 3.11 --extra dev
 uv run python scripts/download_data.py
 uv run python scripts/inventory_data.py --strict
 uv run python scripts/01_ingest_scrna.py
+uv run python scripts/02_build_scrna_atlas.py
+uv run python scripts/03_map_visium.py
+uv run python scripts/04_spatial_neighborhoods.py
+uv run python scripts/05_validate_geomx.py
+uv run python scripts/06_build_report.py
 uv run pytest
 ```
+
+The complete workflow is also available as `bash scripts/run_all.sh`.
+The latest reproducible result is summarized in
+[`docs/analysis_report.md`](docs/analysis_report.md).
 
 The computational environment and first analysis entry points will be added as
 the corresponding milestones are verified.
@@ -55,15 +64,19 @@ files and derived matrices are deliberately excluded from version control.
 
 ### Status
 
-**Milestone 1 complete:** all 12 declared source files were downloaded and
-validated. GSE115978 ingestion recovered 7,186 cells, 23,686 genes, and 32
-patients; 7,072 cells (98.4%) pass the documented baseline detected-gene and
-library-size criteria. The source matrix does not contain mitochondrial genes,
-so mitochondrial percentage is explicitly unavailable rather than imputed.
+**Milestones 1–7 implemented:** the workflow validates all 12 inputs; builds a
+patient-aware GSE115978 reference; maps that reference into four GSE300445
+Visium sections with complementary approaches; identifies recurrent spatial
+neighborhoods with sensitivity checks; and tests one predeclared
+dedifferentiated-melanoma resistance score in patient-collapsed GSE233305 ITX2
+data. GSE115978 ingestion recovered 7,186 cells, 23,686 genes, and 32 patients;
+7,072 cells (98.4%) pass baseline QC. Mitochondrial percentage is explicitly
+unavailable because the source matrix contains no mitochondrial genes.
 
 Analysis outputs remain excluded from Git and are regenerated from the commands
-above. The next milestone is patient-aware normalization, dimensionality
-reduction, and cell-state atlas construction.
+above. GSE300445 has only four spatial samples and no response labels in the GEO
+record, so its associations remain exploratory. The independent retrospective
+validation is not presented as a clinically validated predictor.
 
 ### Primary sources
 

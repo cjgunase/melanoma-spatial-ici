@@ -41,8 +41,14 @@ def main() -> None:
     }
     (RESULTS / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
     columns = [
-        "samples", "cell.types", "treatment.group", "Cohort", "total_counts",
-        "n_genes_by_counts", "pct_counts_mt", "pass_qc",
+        "samples",
+        "cell.types",
+        "treatment.group",
+        "Cohort",
+        "total_counts",
+        "n_genes_by_counts",
+        "pct_counts_mt",
+        "pass_qc",
     ]
     adata.obs[columns].to_csv(RESULTS / "cell_qc.csv.gz")
 
